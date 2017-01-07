@@ -33,14 +33,59 @@ section{
 }
 
 .goals{
-  margin: 1% 0 0 2%;
+  margin-top: 1%;
   float: left;
+  width: 10vw;
+  padding-left: 1%;
+  margin-left: 2%;
 }
 
-.boxes{
-  /*border: 1px solid red;*/
+.goals li{
+  margin-bottom: 10%;
+  margin-top: 2%;
+}
+
+.taskOne{
   display: block;
-  margin-left: 14%;
+  margin-left: 10.7%;
   margin-top: 1%;
-  /*float: left;*/
+  width: 90vw;
+}
+
+ul.taskOne li {
+  /*border: 1px solid green;*/
+  display:inline-block;
+  width: 1em;
+  /*margin-left: .5%;*/
+}
+.taskOne li{
+  /*border: 1px solid white;*/
+  padding-right: 2%;
+  margin-left: .5%;
+}
+
+.taskOne li:nth-child(n+4){
+  margin-right: .5%;
+  margin-left: 0;
+  /*border: 1px solid blue;*/
+}
+.taskOne li:nth-child(n+6){
+  margin-right: .5%;
+  margin-left: -.5%;
+  /*border: 1px solid #A789DE;*/
+}
+.taskOne li:nth-child(n+8){
+  margin-right: .5%;
+  margin-left: 0%;
+  /*border: 1px solid #B7A09E;*/
+}
+.taskOne li:nth-child(n+12){
+  margin-right: .5%;
+  margin-left: .5%;
+  /*border: 1px solid #B9C0A0;*/
+}
+.taskOne li:last-child{
+  margin-right: .5%;
+  margin-left: 0%;
+  /*border: 1px solid #A1C9A0;*/
 }
