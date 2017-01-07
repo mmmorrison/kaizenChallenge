@@ -1,0 +1,27 @@
+body {
+    background-color: #272B30;
+    color: #C8C8C8;
+    font-family: 'Syncopate', sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+.flexcontainer {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+}
+
+.task {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+
+#dates li {
+    width: 10px;
+    height: 15px;
+    background: orange;
+}
