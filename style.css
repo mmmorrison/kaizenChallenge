@@ -1,33 +1,39 @@
+body{
+  background-color: #272B30;
+  color: #C8C8C8;
+}
+
 .tasksList{
   margin:0;
-  padding: 3px 100px 3px 100px;
+  padding: 2px 100px 3px 100px;
   display: inline;
-  font-size: 2em;
-  border: 1px solid purple;
+  font-size: 1em;
 }
 
 ul#dates{
   display:inline;
-  padding: 0 0 2px;
-  margin: 0;
+  /*padding: 0 0 2px;*/
+  /*margin: 0;*/
   text-align: right;
 }
 
 ul#dates li{
   display: inline;
   list-style: none;
-  font-size: 2em;
+  font-size: 1em;
+  /*border: 1px solid green;*/
+  margin: .2%;
 }
 
-ul#dates li#greeting{
+/*ul#dates li#greeting{
   padding: 10px 20px;
   font-weight: bold;
   text-decoration: none;
   line-height: 2.8em;
   color: #fff;
   border: 1px solid red;
-}
+}*/
 section{
   margin-top: 5%;
-  border: 1px solid red;
+  border: 1px solid black;
 }
