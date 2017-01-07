@@ -47,8 +47,10 @@ section{
 .taskOne{
   display: block;
   margin-left: 10.7%;
-  margin-top: 1%;
+  margin-top: 1.2%;
+  padding-bottom: .3%;
   width: 88vw;
+  /*border: 1px solid red;*/
 }
 
 ul.taskOne li {
